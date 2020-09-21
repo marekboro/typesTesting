@@ -30,7 +30,7 @@ public class BearTest {
 
    @Test
     public void hasWeight(){
-//       Bear bear = new Bear("Baloo",25, 95.62);
+//       Bear bear = new Bear("Balo",25, 95.62);
        assertEquals(95.62, bear.getWeight(), 0.01); // when using doubles we need to use a 3rd value in assert equal
    }
 
